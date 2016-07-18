@@ -1,4 +1,3 @@
-CXX=clang++
 RM=rm -f
 CPPFLAGS=-g -std=c++14 -Iinclude
 LDFLAGS=-lsdl2

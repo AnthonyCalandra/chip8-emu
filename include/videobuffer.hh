@@ -3,6 +3,7 @@
 #define VIDEOBUFFER_HH 1
 #include <thread>
 #include <array>
+#include <mutex>
 
 constexpr std::size_t chip8ScreenWidth = 64;
 constexpr std::size_t chip8ScreenHeight = 32;
