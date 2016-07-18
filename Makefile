@@ -1,6 +1,6 @@
 RM=rm -f
-CPPFLAGS=-g -std=c++14 -Iinclude
-LDFLAGS=-lsdl2
+CPPFLAGS=-g -std=c++14 -Iinclude $(shell sdl2-config --cflags)
+LDFLAGS=$(shell sdl2-config --libs)
 BINARY=emu
 SRCDIR=src
 SRCEXT=cc
